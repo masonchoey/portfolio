@@ -233,23 +233,23 @@ function Projects() {
 }
 
 function Skills() {
-  return (
-    <Section id="skills" kicker="04 — Skills" title="Tools I work with">
-      <div className="skills">
-        {skills.map((cat) => (
-          <div className="skillcard" key={cat.group}>
-            <h3>{cat.group}</h3>
-            <div className="tags">
-              {cat.items.map((it) => (
-                <span className="tag tag--lg" key={it}>
-                  {it}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </Section>
+  return (<></>
+    // <Section id="skills" kicker="04 — Skills" title="Tools I work with">
+    //   <div className="skills">
+    //     {skills.map((cat) => (
+    //       <div className="skillcard" key={cat.group}>
+    //         <h3>{cat.group}</h3>
+    //         <div className="tags">
+    //           {cat.items.map((it) => (
+    //             <span className="tag tag--lg" key={it}>
+    //               {it}
+    //             </span>
+    //           ))}
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </Section>
   )
 }
 

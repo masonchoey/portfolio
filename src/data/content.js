@@ -32,7 +32,6 @@ export const experience = [
     location: 'Los Angeles, CA',
     period: 'June 2026 - Present',
     points: [
-      ''
     ],
     stack: [],
   },

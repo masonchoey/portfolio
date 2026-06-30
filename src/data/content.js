@@ -27,6 +27,16 @@ export const about = [
 
 export const experience = [
   {
+    company: 'Kindo',
+    role: 'Software Development Intern',
+    location: 'Los Angeles, CA',
+    period: 'June 2026 - Present',
+    points: [
+      ''
+    ],
+    stack: [],
+  },
+  {
     company: 'Alphacore Wealth Advisory',
     role: 'ML Engineer Intern',
     location: 'Remote',
